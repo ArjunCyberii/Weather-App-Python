@@ -1,0 +1,67 @@
+/* CSS Reset */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #4facfe, #00f2fe);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+   
+.weather-app {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.weather-app h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.weather-app input {
+    padding: 12px;
+    font-size: 1rem;
+    width: calc(100% - 24px);
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.weather-app button {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.weather-app button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 117, 140, 0.6);
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.error {
+    color: #ff4c4c;
+    font-weight: bold;
+}
